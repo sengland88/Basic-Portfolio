@@ -1,0 +1,114 @@
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/stardust_@2X.png");
+    background-color: #cccccc;
+}
+
+.nav {
+    background: white;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: auto; 
+}
+
+.box {
+    background: blue;
+    width: 150px;
+    text-align: center;
+    padding: 0; 
+    float: right; 
+}
+
+.column {
+    width: 960px; 
+    margin-right: 200px;
+    margin-left: 200px; 
+}
+
+h1 {
+    background: #4aaaa5;
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: white; 
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#buttons {
+    text-align: center;
+    padding: 14px 16px;
+    float: right;
+}
+
+.about {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto; 
+}
+
+h2 {
+    color: #4aaaa5; 
+}
+
+#image {
+    float: left;
+    padding-right: 20px; 
+}
+
+
+
+.personality {
+    background: white;
+    padding: 20px;
+    margin: 20px; 
+    overflow: auto; 
+}
+
+#sight {
+    width: 40%;
+    float: right;
+    padding: 20px; 
+}
+
+#stand {
+    width: 40%;
+    float: left;
+    padding: 20px; 
+}
+
+.social {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.grid-container {
+    align-content: center; 
+    text-align: center;
+    display: grid;
+    grid-column: 3;
+    padding: 20px; 
+}
+
+.facebook {    
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.linkedin {    
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+.instagram {    
+    grid-column: 3;
+    grid-row: 1;
+}
